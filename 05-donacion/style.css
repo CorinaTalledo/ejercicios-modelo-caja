@@ -1,0 +1,78 @@
+
+/* FALTA:
+
+1. Agregar sombra al boton de "Continue"
+2. Terminar de acomodar el boton "Continue"
+3. Acomodar el ancho y alto de la caja (puede tener que ver con el padding y margin de los textos y botones) */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #eae7fb;
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+.tarjeta{
+    background-color: #ffffff;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 100px 50px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+li{
+    border: 1px solid #dcdcf6;
+    border-radius: 5px;
+    display: inline-block;
+    width: fit-content;
+    padding: 18px 28px;
+    /* margin-right: 8px; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: #9795b1;
+}
+
+
+.color-boton{
+    background-color: #7464F3;
+    color: #f7f6fe;
+}
+
+
+#boton-continue{
+    padding: 20px 175px;
+    margin-top: 15px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+
+h2{
+    width: 300px;
+    margin: auto;
+    margin-bottom: 50px;
+    font-family: 'Zilla Slab', serif;
+}
+
+
+
+
+
+
+
+
+
